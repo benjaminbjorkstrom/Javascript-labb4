@@ -11,3 +11,8 @@ const total = price * quantity;
 // Beräknar priset på produkten inklusive 25% moms.
 const totalWithVat = total * 1.25;
 
+// Skriver ut resultaten. 
+console.log("pris: " + price + " kr");
+console.log("Antal: " + quantity);
+console.log("Totalt: " + total + " kr");
+console.log("Totalt inklusive moms: " + totalWithVat + " kr");
