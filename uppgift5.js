@@ -7,5 +7,8 @@ const meals = ["Sushi", "Tacos", "Pizza", "Lasagne", "Hamburgare"];
 // Skriver ut hela arrayen.
 console.log(meals);
 
-//Skriver ut det första elementet.
+// Skriver ut det första elementet.
 console.log(meals[0]);
+
+// Skriver ut det sista elementet.
+console.log(meals[meals.lenght - 1]);
