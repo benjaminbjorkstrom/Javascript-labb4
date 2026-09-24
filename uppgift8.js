@@ -14,3 +14,6 @@ function printBook(book) {
     console.log("Författare: " + book.author);
     console.log("Utgivningsår: " + book.publicationYear);
 }
+
+// Anropar funktionen med bokobjektet.
+printBook(book);
