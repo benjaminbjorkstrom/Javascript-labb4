@@ -15,3 +15,9 @@ console.log(meals[meals.lenght - 1]);
 
 // Lägger till en ny maträtt sist i arrayen.
 meals.push("Soppa");
+
+// Tar bort den första maträtten.
+meals.shift(); 
+
+// Skriver ut arrayen efter förändringarna.
+console.log(meals);
