@@ -2,4 +2,4 @@
 "use strict";
 
 //Skapar en array med maträtter.
-const meals = ["Sushi", "Tacos", "Pizza", "Lasagne", "Hamburgare"]
+const meals = ["Sushi", "Tacos", "Pizza", "Lasagne", "Hamburgare"];
