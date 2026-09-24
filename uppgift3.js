@@ -3,3 +3,12 @@
 
 // Anger personens ålder.
 const age = 20;
+
+// Kontrollerar vilken åldergrupp personen tillhör.
+if (age < 18) {
+    console.log("Barn");
+} else if (age < 65) {
+    console.log("Vuxen");
+} else {
+    console.log("Pensionär");
+}
