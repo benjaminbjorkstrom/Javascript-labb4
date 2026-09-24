@@ -5,3 +5,8 @@
 function calculateArea(width, height) {
     return width * height;
 }
+
+// Anropar funktionen med olika värden.
+console.log("Arean är " + calculateArea(4, 5));
+console.log("Arean är " + calculateArea(6, 7));
+console.log("Arean är " + calculateArea(10, 10));
