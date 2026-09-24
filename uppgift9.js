@@ -4,17 +4,17 @@
 // Skapar en array med personer
 const people = [
     {
-        name: "Martin"
+        name: "Martin",
         age: 25,
         city: "Stockholm"
     },
     {
-        name: "Elin"
+        name: "Elin",
         age: 15,
         city: "Göteborg"
     },
     {
-        name: "Alexander"
+        name: "Alexander",
         age: 40,
         city: "Umeå"
     }
@@ -29,7 +29,7 @@ function printPerson(person) {
     } else {
         console.log(
             person.name + "bor i" + person.city + " och är inte myndig."
-        ):
+        );
     }
 }
 
