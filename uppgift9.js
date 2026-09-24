@@ -19,3 +19,21 @@ const people = [
         city: "Umeå"
     }
 ];
+
+// Funktion som skriver ut information om en person.
+function printPerson(person) {
+    if (person.age >= 18) {
+        console.log(
+            person.name + " bor i " + person.city + " och är myndig."
+        );
+    } else {
+        console.log(
+            person.name + "bor i" + person.city + " och är inte myndig."
+        ):
+    }
+}
+
+// Går igenom alla personer i arrayen.
+for (let person of people) {
+    printPerson(person);
+}
