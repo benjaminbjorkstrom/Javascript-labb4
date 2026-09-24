@@ -1,0 +1,1 @@
+/* Lösning till uppgift 9. Benjamin Björkström 2026 */
