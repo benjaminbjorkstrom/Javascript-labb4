@@ -7,3 +7,7 @@ const quantity = 3;
 
 // Beräknar totalpriset.
 const total = price * quantity;
+
+// Beräknar priset på produkten inklusive 25% moms.
+const totalWithVat = total * 1.25;
+
