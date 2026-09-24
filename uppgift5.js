@@ -12,3 +12,6 @@ console.log(meals[0]);
 
 // Skriver ut det sista elementet.
 console.log(meals[meals.lenght - 1]);
+
+// Lägger till en ny maträtt sist i arrayen.
+meals.push("Soppa");
