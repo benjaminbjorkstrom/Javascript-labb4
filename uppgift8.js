@@ -7,3 +7,10 @@ const book = {
     author: "J.K. Rowling",
     publicationYear: "1999"
 }; 
+
+// Funktion som skriver ut information om en bok. 
+function printBook(book) {
+    console.log("Titel: " + book.title);
+    console.log("Författare: " + book.author);
+    console.log("Utgivningsår: " + book.publicationYear);
+}
