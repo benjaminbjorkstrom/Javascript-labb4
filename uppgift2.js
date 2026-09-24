@@ -5,3 +5,5 @@
 const price = 100;
 const quantity = 3; 
 
+// Beräknar totalpriset.
+const total = price * quantity;
