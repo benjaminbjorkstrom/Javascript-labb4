@@ -28,7 +28,7 @@ function printPerson(person) {
         );
     } else {
         console.log(
-            person.name + "bor i" + person.city + " och är inte myndig."
+            person.name + " bor i" + person.city + " och är inte myndig."
         );
     }
 }
